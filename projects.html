@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html> 
+<html>
 <head>
-<title>Menu 1</title>
+<title>Example</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta id='page-params'
-	theme='spacelab'
-	title='Strapdown+Navigation'
-	menu='Home,index.html,Menu 1,menu1.html,Menu 2,menu2.html,Menu 3,menu3/index.html' 
+	theme='paper'
+	title='bocinsky&#12539;data driven archaeology'
+      menu='home,index.html,projects,projects.html,publications,publications/index.html,presentations,presentations/index.html,vita,cv.html'
 	active='2'>
 </head>
 
-<body style="display:none">
+<body style="display:none" >
 
-<xmp>
-#Menu 1	
-</xmp>
+<textarea>
+#### projects
+
+***
+
+##### [FedData](https://github.com/bocinsky/FedData) - federated data sources in *R*
+Functions to automate downloading geospatial data available from several federated data sources (mainly sources maintained by the US Federal government). Designed with the large-scale geographic information system (GIS) use-case in mind: cases where the use of dynamic web-services is impractical due to the scale (spatial and/or temporal) of analysis. A [SKOPE](http://www.envirecon.org) project.
+
+<img src="./media/NAPA.png" width="800px" title="FedData extractions for Napa county, California. (a) elevation from the National Elevation Dataset. (b) rivers and strams from the National Hydrography Dataset. (c) estimated average maximum wine grape yield per soil type from the Soil Survey Geographic database.">
+
+***
+
+##### [PaleoCAR](https://github.com/bocinsky/PaleoCAR) - High-resolution paleoclimate reconstruction in *R*
+Correlation-adjusted regression of tree-ring series on spatio-temporal climate signals. PaleoCAR builds reconstructions for any arbitrarily defined rectangular area by assembling and weighting (via [CAR regression](http://www.degruyter.com/view/j/sagmb.2011.10.issue-1/sagmb.2011.10.1.1730/sagmb.2011.10.1.1730.xml)) the combination of climate proxies from publicly accessible databases that best reconstructs weather records from the historic period. Published in [*Nature Communications*](http://www.nature.com/ncomms/2014/141204/ncomms6618/full/ncomms6618.html).
+
+<img src="./media/GROWING_NICHE_1247_UNION.png" width="800px" title="PaleoCAR reconstruction of the rain-fed maize agricultural niche in AD 1247. The upper panels represent a study area in southwestern Colorado; the lower panels represent an area in the northern Rio Grande region of New Mexico. Each panel's color gradient breaks at the extent of that signal's agricultural niche. Thin black lines represent prediction intervals. Scale bar: 10 km. (a,b) net water-year precipitation, green portion in niche. (e,f) growing-season GDDs, red portion in niche. (c,d) the rain-fed maize agricultural niche, light green portion in upper PI, medium green portion in niche, dark green portion in lower PI.">
+
+</textarea>
 
 <script src="config/strapdown.js"></script>
 </body>
